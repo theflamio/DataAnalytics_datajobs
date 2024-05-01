@@ -1,4 +1,4 @@
-[![Python application](https://github.com/theflamio/DataAnalytics_datajobs/actions/workflows/python-app.yml/badge.svg?branch=master&event=workflow_run)](https://github.com/theflamio/DataAnalytics_datajobs/actions/workflows/python-app.yml)
+[![Python application](https://github.com/theflamio/DataAnalytics_datajobs/actions/workflows/python-app.yml/badge.svg)](https://github.com/theflamio/DataAnalytics_datajobs/actions/workflows/python-app.yml)
 
 # Airflow Pipeline Project Description
 
