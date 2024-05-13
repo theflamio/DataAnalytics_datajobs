@@ -11,12 +11,12 @@ def setup_logging(log_file):
 
 def log_info(message):
     """
-    Function to log informational messages.
+    Function to log informational messages. Confirmation that things are working as expected.
     """
     logging.info(message)
 
 def log_error(message):
     """
-    Function to log error messages.
+    Function to log error messages. A more serious problem that prevents the program from working as expected. 
     """
     logging.error(message)

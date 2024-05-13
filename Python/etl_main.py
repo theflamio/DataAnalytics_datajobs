@@ -1,11 +1,14 @@
-# python/etl_main.py
+""" main script for the Extration Transform Load program """
+import sys
 
-from .extractor import extract_data
-from .transformer import transform_data
-from .loader import load_data
-from .config import DATABASE_URL
+print(sys.path)
 
-def main_etl_process():
+from extractor import extract_data
+from transformer import transform_data
+from loader import load_data
+from config import DATABASE_URL
+
+def main():
     """
     Main function for the ETL process.
     """
@@ -24,4 +27,4 @@ def main_etl_process():
     print("ETL process completed successfully!")
 
 if __name__ == "__main__":
-    main_etl_process()
+    main()
