@@ -2,3 +2,4 @@ test_data/gsearch_jobs.csv
 data/gsearch_jobs.csv
 TestScripts/kaggle/kaggle.json
 datasets/gsearch_jobs.csv
+Python/__pycache__/extractor.cpython-310.pyc
