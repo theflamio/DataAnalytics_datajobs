@@ -1,12 +1,8 @@
-""" main script for the Extration Transform Load program """
-import sys
-
-print(sys.path)
-
 from extractor import extract_data
-#from transformer import transform_data
-#from loader import load_data
-#from config import DATABASE_URL
+from transformer import transform_data
+from loader import load_data
+from config import DATABASE_URL
+
 
 def main():
     """
